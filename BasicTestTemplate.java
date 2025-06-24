@@ -32,10 +32,10 @@ public class BasicTestTemplate {
 	  	}
 	  @Test
 	  public void test_02() throws Exception {
-		driver.get(baseUrl);//google.com ý alýyor
-		driver.findElement(By.name("q")).sendKeys("Selenium Webdriver");//arama çubuðuna yazdýrýyor
-		driver.findElement(By.xpath("/html/body/div/div[3]/form/div[2]/div/div[3]/center/input[1]")).click();//Google'da Ara ya týklýyor
-	    driver.findElement(By.className("LC20lb")).click();//Selenium Webdriver sonucuna tklýyor
-	    assertEquals(driver.getTitle(),"Selenium WebDriver");// Açýlan sayfanýn title ý ile Selenium Webdriver ý karþýlaþtýrýyor
+		driver.get(baseUrl);//google.com Ã½ alÃ½yor
+		driver.findElement(By.name("q")).sendKeys("Selenium Webdriver");//arama Ã§ubuÃ°una yazdÃ½rÃ½yor
+		driver.findElement(By.xpath("/html/body/div/div[3]/form/div[2]/div/div[3]/center/input[1]")).click();//Google'da Ara ya tÃ½klÃ½yor
+	    driver.findElement(By.className("LC20lb")).click();//Selenium Webdriver sonucuna tklÃ½yor
+	    assertEquals(driver.getTitle(),"Selenium WebDriver");// AÃ§Ã½lan sayfanÃ½n title Ã½ ile Selenium Webdriver Ã½ karÃ¾Ã½laÃ¾tÃ½rÃ½yor
 		}
 	  }
